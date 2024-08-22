@@ -10,7 +10,7 @@ const printCompilationMessage = require('./compilation.config.js');
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "https://shopcek.github.io/wikz-web-app/",
+    publicPath: "https://shopcek.github.io/",
   },
 
   resolve: {
