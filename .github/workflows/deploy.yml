@@ -11,8 +11,6 @@ jobs:
     strategy:
       matrix:
         node-version: [ 18.x ]
-    env:
-      REACT_APP_WIKZ_API_KEY: ${{ secrets.WIKZ_WEB_APP_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
