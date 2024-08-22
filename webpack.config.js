@@ -11,6 +11,7 @@ const printCompilationMessage = require('./compilation.config.js');
 module.exports = (_, argv) => ({
   output: {
     publicPath: "https://shopcek.github.io/wikz-web-app/",
+    //publicPath: "http://localhost:8080/",
   },
 
   resolve: {
@@ -95,10 +96,5 @@ module.exports = (_, argv) => ({
       template: "./public/index.html",
     }),
     new Dotenv(),
-    new CopyWebpackPlugin({
-      patterns: [
-        { from: 'public/images', to: 'images' }
-      ]
-    })
   ],
 });
