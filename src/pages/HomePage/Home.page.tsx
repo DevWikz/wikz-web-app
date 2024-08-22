@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
 
                     {/* Sağ Taraf */}
                     <div className="w-full md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
-                        <img src="wikz-web-app/images/hero-img.png" alt="Mobile App" className="w-1/2 h-auto md:w-2/3" />
+                        <img src="images/hero-img.png" alt="Mobile App" className="w-1/2 h-auto md:w-2/3" />
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ const HomePage: React.FC = () => {
                 <div className="flex flex-col lg:flex-row justify-between items-start">
                     {/* Right Section with Image (now on the left) */}
                     <div className="w-full lg:w-2/4 flex justify-center items-center lg:mr-8 mt-12 lg:mt-0">
-                        <img src="wikz-web-app/images/swag-img.png" alt="Mobile App" className="w-full h-auto" />
+                        <img src="images/swag-img.png" alt="Mobile App" className="w-full h-auto" />
                     </div>
 
                     {/* Left Section with Cards (now on the right) */}
@@ -144,7 +144,7 @@ const HomePage: React.FC = () => {
 
                     {/* Right Section with Image */}
                     <div className="w-full lg:w-2/4 flex justify-center items-center mt-12 lg:mt-0">
-                        <img src="wikz-web-app/images/swag-img.png" alt="Mobile App" className="w-full h-auto" />
+                        <img src="images/swag-img.png" alt="Mobile App" className="w-full h-auto" />
                     </div>
                 </div>
             </div>
