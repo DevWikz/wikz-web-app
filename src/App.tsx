@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import ReactDOM from 'react-dom/client'
+import { useState, useEffect } from 'react'
 
 import './index.css'
 import OnBoardingPage from './pages/OnBoardingPage/OnBoarding.page'

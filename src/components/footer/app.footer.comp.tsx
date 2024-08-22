@@ -1,5 +1,3 @@
-import React from "react"
-
 const AppFooterComp = () => {
     return (
         <footer className="container mx-auto px-6 py-4 flex justify-between items-center bg-[#2354e6] shadow-lg rounded-3xl">

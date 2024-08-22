@@ -1,4 +1,3 @@
-import React from "react"
 import { FaTelegramPlane, FaTimes } from 'react-icons/fa';
 
 const AppNavbarComp = () => {
