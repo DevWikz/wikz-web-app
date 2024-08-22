@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wikz-web-app/static/css/main.57fad909.css",
+    "main.js": "/wikz-web-app/static/js/main.21f27b6e.js",
+    "static/js/453.0bd4cd03.chunk.js": "/wikz-web-app/static/js/453.0bd4cd03.chunk.js",
+    "index.html": "/wikz-web-app/index.html",
+    "main.57fad909.css.map": "/wikz-web-app/static/css/main.57fad909.css.map",
+    "main.21f27b6e.js.map": "/wikz-web-app/static/js/main.21f27b6e.js.map",
+    "453.0bd4cd03.chunk.js.map": "/wikz-web-app/static/js/453.0bd4cd03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57fad909.css",
+    "static/js/main.21f27b6e.js"
+  ]
+}
