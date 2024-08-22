@@ -1,0 +1,27 @@
+name: Github Page Deploy
+
+on:
+  push:
+    branches:
+      - "dev/v1.0.1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ 18.x ]
+    env:
+      REACT_APP_WIKZ_API_KEY: ${{ secrets.WIKZ_WEB_APP_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install and Build
+        run: npm install && npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        with:
+          GITHUB_TOKEN: ${{ secrets.WIKZ_WEB_APP_GITHUB_KEY }}
+          branch: gh-pages
+          folder: dist
