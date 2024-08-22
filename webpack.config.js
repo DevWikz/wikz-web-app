@@ -10,7 +10,7 @@ const printCompilationMessage = require('./compilation.config.js');
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "https://shopcek.github.io/",
+    publicPath: "https://shopcek.github.io/wikz-web-app/",
   },
 
   resolve: {
@@ -64,8 +64,8 @@ module.exports = (_, argv) => ({
           {
             loader: 'file-loader',
             options: {
-              name: '[path][name].[ext]',
-              context: 'src', // Optional: changes the output path to match the source directory
+              name: '[name].[ext]',
+              context: 'src',
             },
           },
         ],
