@@ -3,8 +3,8 @@ import React from 'react';
 const HomePage: React.FC = () => {
     return (
         <>
-            <div className="min-h-screen flex items-center">
-                <div className="container mx-auto px-6 flex flex-col md:flex-row">
+        <div className='min-h-screen flex items-center'>
+            <div className="container mx-auto px-6 flex flex-col md:flex-row mt-36">
                     {/* Sol Taraf */}
                     <div className="w-full md:w-2/3 flex flex-col justify-center space-y-8">
                         <h1 className="text-5xl font-extrabold text-white">
@@ -36,10 +36,9 @@ const HomePage: React.FC = () => {
                         <img src="https://raw.githubusercontent.com/DevWikz/wikz-web-app/dev/v1.0.1/public/images/hero-img.png" alt="Mobile App" className="w-1/2 h-auto md:w-2/3" />
                     </div>
                 </div>
+                </div>
 
-            </div>
-
-            <div className="px-24 py-12">
+            <div className="px-5 py-5 md:px-24 md:py-12">
                 {/* WikZ Swag Section */}
                 <div className="text-center mb-12">
                     <h1 className="text-5xl font-bold text-white py-6">WikZ Swag</h1>
@@ -50,7 +49,7 @@ const HomePage: React.FC = () => {
 
                 <div className="flex flex-col lg:flex-row justify-between items-start">
                     {/* Right Section with Image (now on the left) */}
-                    <div className="w-full lg:w-2/4 flex justify-center items-center lg:mr-4 mt-12 lg:mt-0">
+                    <div className="w-full lg:w-2/4 flex justify-center items-center lg:mr-4 mt-0 mb-12 md:md-0 md:mt-12  lg:mt-0">
                         <img src="https://raw.githubusercontent.com/DevWikz/wikz-web-app/dev/v1.0.1/public/images/swag-img.png" alt="Mobile App" className="w-full h-auto" />
                     </div>
 
@@ -101,7 +100,7 @@ const HomePage: React.FC = () => {
                 </div>
             </div>
 
-            <div className="px-24 py-12">
+            <div className="px-5 py-5 md:px-24 md:py-12">
                 <div className="text-center mb-12">
                 <h1 className="text-5xl font-bold text-white py-6">WikZ Digital</h1>
                 <h2 className="text-3xl font-bold mt-2 text-[#5371ff]">
@@ -111,7 +110,7 @@ const HomePage: React.FC = () => {
 
                 <div className="flex flex-col lg:flex-row justify-between items-start">
                     {/* Left Section with Cards */}
-                    <div className="w-full lg:w-1/2 space-y-8 p-10">
+                    <div className="w-full lg:w-1/2 space-y-8 p-0 md:p-10">
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                             <div className="flex flex-col justify-center items-center bg-[#1a2024] text-white p-4 rounded-[2rem] shadow-lg text-center">
                                 <h3 className="text-md font-bold mb-2 text-[#5371ff]">Gift Cards</h3>

@@ -7,7 +7,7 @@ import HomePage from './pages/HomePage/Home.page'
 import AppFooterComp from './components/footer/app.footer.comp'
 
 const App = () => {
-  const [showOnBoarding, setShowOnBoarding] = useState(true)
+  const [showOnBoarding, setShowOnBoarding] = useState(false)
 
   useEffect(() => {
     const timer = setTimeout(() => {
