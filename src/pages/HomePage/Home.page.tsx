@@ -45,8 +45,11 @@ const HomePage: React.FC = () => {
                     <h2 className="text-3xl font-bold mt-2" style={{ color: '#5371ff' }}>
                         Your Hub for Exclusive Web3 Swag
                     </h2>
+                    <div className="text-center mt-12">
+                    <p className="text-xl font-bold text-white">On the journey to becoming the premier swag store for the Web3 community</p>
                 </div>
-
+                </div>
+               
                 <div className="flex flex-col lg:flex-row justify-between items-start">
                     {/* Right Section with Image (now on the left) */}
                     <div className="w-full lg:w-2/4 flex justify-center items-center lg:mr-4 mt-0 mb-12 md:md-0 md:mt-12  lg:mt-0">
@@ -94,10 +97,8 @@ const HomePage: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Footer Section */}
-                <div className="text-center mt-12">
-                    <p className="text-xl font-bold text-white">On the journey to becoming the premier swag store for the Web3 community</p>
-                </div>
+
+                
             </div>
 
             <div className="px-5 py-5 md:px-24 md:py-12">
@@ -106,47 +107,51 @@ const HomePage: React.FC = () => {
                 <h2 className="text-3xl font-bold mt-2 text-[#5371ff]">
                     WikZ Digital brings key services to Telegram app
                 </h2>
+                <div className="text-center mt-12">
+                    <p className="text-xl font-bold text-white">WikZ Digital simplifies your digital life, keeping everything you need right at your fingertips within Telegram</p>
+                </div>
                 </div>
 
                 <div className="flex flex-col lg:flex-row justify-between items-start">
-                    {/* Left Section with Cards */}
-                    <div className="w-full lg:w-1/2 space-y-8 p-0 md:p-10">
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                            <div className="flex flex-col justify-center items-center bg-[#1a2024] text-white p-4 rounded-[2rem] shadow-lg text-center">
-                                <h3 className="text-md font-bold mb-2 text-[#5371ff]">Gift Cards</h3>
-                                <p>Buy and send gift<br/> cards instantly.</p>
-                            </div>
-                            <div className="flex flex-col justify-center items-center bg-[#1a2024] text-white p-4 rounded-[2rem] shadow-lg text-center">
-                                <h3 className="text-md font-bold mb-2 text-[#5371ff]">Bill Payments</h3>
-                                <p>Pay bills securely<br/> using crypto.</p>
-                            </div>
-                            <div className="flex flex-col justify-center items-center bg-[#1a2024] text-white p-4 rounded-[2rem] shadow-lg text-center">
-                                <h3 className="text-md font-bold mb-2 text-[#5371ff]">E-SIM Solutions</h3>
-                                <p>Activate and<br/> manage E-SIMs with ease.</p>
-                            </div>
-                        </div>
+    {/* Right Section with Image on Mobile */}
+    <div className="w-full lg:w-2/4 flex justify-center items-center mt-0 md:mt-12 mb-12 md:mb-0 lg:mt-0 order-1 lg:order-2">
+        <img src="https://raw.githubusercontent.com/DevWikz/wikz-web-app/dev/v1.0.1/public/images/digital-img.png" alt="Mobile App" className="w-full h-auto" />
+    </div>
 
-                        {/* Why Choose WikZ Digital Section */}
-                        <div className="mt-12">
-                            <h2 className="text-4xl font-bold mb-8" style={{ color: '#5371ff' }}>
-                                Why Choose WikZ Digital?
-                            </h2>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                <div className="bg-[#1a2024] text-white p-6 rounded-[2rem] shadow-lg text-center">
-                                    <p>Handle all digital<br/> needs without leaving<br/> Telegram app.</p>
-                                </div>
-                                <div className="bg-[#1a2024] text-white p-6 rounded-[2rem] shadow-lg text-center">
-                                    <p>Fast, secure transactions<br/> powered by TON<br/> blockchain.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    {/* Left Section with Cards */}
+    <div className="w-full lg:w-1/2 space-y-8 p-0 md:p-10 order-2 lg:order-1">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="flex flex-col justify-center items-center bg-[#1a2024] text-white p-4 rounded-[2rem] shadow-lg text-center">
+                <h3 className="text-md font-bold mb-2 text-[#5371ff]">Gift Cards</h3>
+                <p>Buy and send gift<br /> cards instantly.</p>
+            </div>
+            <div className="flex flex-col justify-center items-center bg-[#1a2024] text-white p-4 rounded-[2rem] shadow-lg text-center">
+                <h3 className="text-md font-bold mb-2 text-[#5371ff]">Bill Payments</h3>
+                <p>Pay bills securely<br /> using crypto.</p>
+            </div>
+            <div className="flex flex-col justify-center items-center bg-[#1a2024] text-white p-4 rounded-[2rem] shadow-lg text-center">
+                <h3 className="text-md font-bold mb-2 text-[#5371ff]">E-SIM Solutions</h3>
+                <p>Activate and<br /> manage E-SIMs with ease.</p>
+            </div>
+        </div>
 
-                    {/* Right Section with Image */}
-                    <div className="w-full lg:w-2/4 flex justify-center items-center mt-12 lg:mt-0">
-                        <img src="https://raw.githubusercontent.com/DevWikz/wikz-web-app/dev/v1.0.1/public/images/digital-img.png" alt="Mobile App" className="w-full h-auto" />
-                    </div>
+        {/* Why Choose WikZ Digital Section */}
+        <div className="mt-12">
+            <h2 className="text-4xl font-bold mb-8" style={{ color: '#5371ff' }}>
+                Why Choose WikZ Digital?
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-[#1a2024] text-white p-6 rounded-[2rem] shadow-lg text-center">
+                    <p>Handle all digital<br /> needs without leaving<br /> Telegram app.</p>
                 </div>
+                <div className="bg-[#1a2024] text-white p-6 rounded-[2rem] shadow-lg text-center">
+                    <p>Fast, secure transactions<br /> powered by TON<br /> blockchain.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
                 <div className="text-center mt-12">
                     <p className="text-xl font-bold text-white">WikZ Digital simplifies your digital life, keeping everything you need right at your fingertips within Telegram</p>
