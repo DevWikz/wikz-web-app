@@ -1,6 +1,6 @@
 {
   "name": "wikz-web-app",
-  "homepage": " https://devwikz.github.io/wikz-web-app/",
+  "homepage": "https://devwikz.github.io/wikz-web-app/",
   "version": "1.0.1",
   "private": true,
   "dependencies": {
