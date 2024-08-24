@@ -7,12 +7,12 @@ import HomePage from './pages/HomePage/Home.page'
 import AppFooterComp from './components/footer/app.footer.comp'
 
 const App = () => {
-  const [showOnBoarding, setShowOnBoarding] = useState(false)
+  const [showOnBoarding, setShowOnBoarding] = useState(true)
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowOnBoarding(false)
-    }, 5000) // 5 saniye sonra kaybolacak
+    }, 1500) // 5 saniye sonra kaybolacak
 
     return () => clearTimeout(timer) // Cleanup function
   }, [])
