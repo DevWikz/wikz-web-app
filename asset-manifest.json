@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wikz-web-app/static/css/main.5e7c86ee.css",
-    "main.js": "/wikz-web-app/static/js/main.f57594f8.js",
-    "static/js/453.0bd4cd03.chunk.js": "/wikz-web-app/static/js/453.0bd4cd03.chunk.js",
-    "index.html": "/wikz-web-app/index.html",
-    "main.5e7c86ee.css.map": "/wikz-web-app/static/css/main.5e7c86ee.css.map",
-    "main.f57594f8.js.map": "/wikz-web-app/static/js/main.f57594f8.js.map",
-    "453.0bd4cd03.chunk.js.map": "/wikz-web-app/static/js/453.0bd4cd03.chunk.js.map"
+    "main.css": "/static/css/main.5e7c86ee.css",
+    "main.js": "/static/js/main.2e135322.js",
+    "static/js/453.0bd4cd03.chunk.js": "/static/js/453.0bd4cd03.chunk.js",
+    "index.html": "/index.html",
+    "main.5e7c86ee.css.map": "/static/css/main.5e7c86ee.css.map",
+    "main.2e135322.js.map": "/static/js/main.2e135322.js.map",
+    "453.0bd4cd03.chunk.js.map": "/static/js/453.0bd4cd03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e7c86ee.css",
-    "static/js/main.f57594f8.js"
+    "static/js/main.2e135322.js"
   ]
 }
