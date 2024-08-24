@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wikz-web-app/static/css/main.bcf40b1d.css",
-    "main.js": "/wikz-web-app/static/js/main.58bf73a2.js",
+    "main.css": "/wikz-web-app/static/css/main.b57e3266.css",
+    "main.js": "/wikz-web-app/static/js/main.fc32468d.js",
     "static/js/453.0bd4cd03.chunk.js": "/wikz-web-app/static/js/453.0bd4cd03.chunk.js",
     "index.html": "/wikz-web-app/index.html",
-    "main.bcf40b1d.css.map": "/wikz-web-app/static/css/main.bcf40b1d.css.map",
-    "main.58bf73a2.js.map": "/wikz-web-app/static/js/main.58bf73a2.js.map",
+    "main.b57e3266.css.map": "/wikz-web-app/static/css/main.b57e3266.css.map",
+    "main.fc32468d.js.map": "/wikz-web-app/static/js/main.fc32468d.js.map",
     "453.0bd4cd03.chunk.js.map": "/wikz-web-app/static/js/453.0bd4cd03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcf40b1d.css",
-    "static/js/main.58bf73a2.js"
+    "static/css/main.b57e3266.css",
+    "static/js/main.fc32468d.js"
   ]
 }
