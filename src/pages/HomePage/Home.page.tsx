@@ -63,7 +63,7 @@ const HomePage: React.FC = () => {
 
                     {/* Left Section with Cards (now on the right) */}
                     <div className="w-full lg:w-1/2 space-y-8">
-                        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2">
+                        <div className="grid grid-cols-2 gap-6 sm:grid-cols-2">
                             {/* 1.Kart */}
                             <div className="bg-[#1a2024] text-white p-2 rounded-[1rem] shadow-lg flex justify-center items-center">
                                 <div className="text-center">
@@ -122,13 +122,13 @@ const HomePage: React.FC = () => {
 
                 <div className="flex flex-col lg:flex-row justify-between items-start">
                     {/* Right Section with Image on Mobile */}
-                    <div className="w-full lg:w-2/4 flex justify-center items-center mt-0 md:mt-12 mb-12 md:mb-0 lg:mt-0 order-1 lg:order-2">
+                    <div className="w-full lg:w-2/4 flex justify-center items-center mt-0 md:mt-12 mb-12 md:mb-0 lg:mt-0 order-1 lg:order-2 pl-10">
                         <img src="https://raw.githubusercontent.com/DevWikz/wikz-web-app/dev/v1.0.1/public/images/digital-img.png" alt="Mobile App" className="w-full h-auto" />
                     </div>
 
                     {/* Left Section with Cards */}
-                    <div className="w-full lg:w-1/2 space-y-8 p-0 md:p-10 order-2 lg:order-1">
-                        <div className="grid grid-cols-3 gap-4">
+                    <div className="w-full lg:w-1/2 space-y-8 order-2 lg:order-1">
+                        <div className="grid grid-cols-3 gap-4 mt-0 md:mt-5">
                             <div className="flex flex-col justify-center items-center bg-[#1a2024] text-white p-2 md:p-4 rounded-[1rem] shadow-lg text-center">
                                 <h3 className="text-xs md:text-xl font-bold mb-2" style={{ color: '#5371ff' }}>Gift Cards</h3>
                                 <p className='text-[10px] md:text-[15px]'>Buy and send gift<br /> cards instantly.</p>
@@ -139,13 +139,13 @@ const HomePage: React.FC = () => {
                             </div>
                             <div className="flex flex-col justify-center items-center bg-[#1a2024] text-white p-2 md:p-4 rounded-[1rem] shadow-lg text-center">
                                 <h3 className="text-xs md:text-xl font-bold mb-2" style={{ color: '#5371ff' }}>E-SIM</h3>
-                                <p className='text-[10px] md:text-[15px]'>Activate and<br /> manage E-SIMs with ease.</p>
+                                <p className='text-[10px] md:text-[15px]'>Activate and manage <br/> E-SIMs with ease.</p>
                             </div>
                         </div>
 
                         {/* Why Choose WikZ Digital Section */}
                         <div className="mt-12">
-                            <h2 className="text-1xl md:text-3xl font-bold mb-2 mt-0 md:mt-2" style={{ color: '#5371ff' }}>
+                            <h2 className="text-1xl md:text-3xl font-bold mb-2 md:mb-6 mt-0 md:mt-12 " style={{ color: '#5371ff' }}>
                                 Why Choose WikZ Digital?
                             </h2>
                             <div className="grid grid-cols-2 gap-4">
