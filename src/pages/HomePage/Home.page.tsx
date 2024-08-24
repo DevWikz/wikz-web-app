@@ -43,7 +43,7 @@ const HomePage: React.FC = () => {
                 </div>
             </div>
 
-            <div className="px-5 py-5 md:px-24 md:py-12">
+            <div className="px-5 py-5 md:px-24 md:py-12 mt-16 md:mt-0">
                 {/* WikZ Swag Section */}
                 <div className="text-center mb-12">
                     <h1 className="text-3xl md:text-5xl font-bold text-white py-3 md:py-6">WikZ Swag</h1>
@@ -109,7 +109,7 @@ const HomePage: React.FC = () => {
                 </div>
             </div>
 
-            <div className="px-5 py-5 md:px-24 md:py-12">
+            <div className="px-5 py-5 md:px-24 md:py-12 mt-12 md:mt-0">
                 <div className="text-center mb-12">
                     <h1 className="text-3xl md:text-5xl font-bold text-white py-3 md:py-6">WikZ Digital</h1>
                     <h2 className="text-[20px] md:text-3xl font-bold mt-0 md:mt-2" style={{ color: '#5371ff' }}>
