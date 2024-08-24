@@ -13,13 +13,22 @@ const AppNavbarComp = () => {
 
                 {/* Button Section */}
                 <div className="flex space-x-2 md:space-x-4">
-                    <button className="bg-black text-white p-[5px] md:px-3 md:py-3 rounded-xl flex items-center space-x-2">
+                    <button 
+                    className="bg-black text-white p-[5px] md:px-3 md:py-3 rounded-xl flex items-center space-x-2"
+                    onClick={() => window.open("https://t.me/WikZCrypto", "_blank")}
+                    >
                         <FaTelegramPlane className="w-[1.5rem] h-[1.5rem] md:w-5 md:h-5" />
                     </button>
-                    <button className="bg-black text-white p-[5px] md:px-3 md:py-2 rounded-xl flex items-center space-x-2">
+                    <button 
+                    className="bg-black text-white p-[5px] md:px-3 md:py-2 rounded-xl flex items-center space-x-2"
+                    onClick={() => window.open("https://x.com/WikZCrypto", "_blank")}
+                    >
                         <RiTwitterXFill className="w-[1.5rem] h-[1.5rem] md:w-5 md:h-5" />
                     </button>
-                    <button className="flex row bg-black text-white font-extrabold p-[5px] md:px-3 md:py-3 rounded-xl items-center gap-2">
+                    <button 
+                    className="flex row bg-black text-white font-extrabold p-[5px] md:px-3 md:py-3 rounded-xl items-center gap-2"
+                    onClick={() => window.open("https://wikz.gitbook.io/", "_blank")}
+                    >
                         <CgFileDocument className="w-[1.5rem] h-[1.5rem] md:w-5 md:h-5" />
                     </button>
                 </div>
